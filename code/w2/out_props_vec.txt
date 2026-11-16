@@ -1,0 +1,1 @@
+vectorised block sweep (blocks 1-5, permuted order) vs exhaustive: 300 cases, mismatches = 0

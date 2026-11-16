@@ -1,0 +1,14 @@
+w3_k116i 0.083 code/w3/res/logs/j04b.txt -- code/w3/w3_batch.py null 116 I 10000 0 0 10 100000 7
+w3_k300_07a 0.083 code/w3/res/logs/j07a.txt -- code/w3/w3_batch.py null 300 A 40000 0 0 5 100000 7
+w3_k300_07b 0.083 code/w3/res/logs/j07b.txt -- code/w3/w3_batch.py null 300 A 40000 0 5 10 100000 7
+w3_k300_08a 0.083 code/w3/res/logs/j08a.txt -- code/w3/w3_batch.py null 300 B 10000 0 0 5 100000 7
+w3_k300_08b 0.083 code/w3/res/logs/j08b.txt -- code/w3/w3_batch.py null 300 B 10000 0 5 10 100000 7
+w3_k300_09a 0.083 code/w3/res/logs/j09a.txt -- code/w3/w3_batch.py null 300 B 40000 0 0 5 100000 7
+w3_k300_09b 0.083 code/w3/res/logs/j09b.txt -- code/w3/w3_batch.py null 300 B 40000 0 5 10 100000 7
+w3_k300_10a 0.083 code/w3/res/logs/j10a.txt -- code/w3/w3_batch.py null 300 A 40000 0.003 0 5 100000 7
+w3_k300_10b 0.083 code/w3/res/logs/j10b.txt -- code/w3/w3_batch.py null 300 A 40000 0.003 5 10 100000 7
+w3_k300_11a 0.083 code/w3/res/logs/j11a.txt -- code/w3/w3_batch.py null 300 B 40000 0.003 0 5 100000 7
+w3_k300_11b 0.083 code/w3/res/logs/j11b.txt -- code/w3/w3_batch.py null 300 B 40000 0.003 5 10 100000 7
+w3_k300_12a 0.083 code/w3/res/logs/j12a.txt -- code/w3/w3_batch.py null 300 I 10000 0 0 5 100000 7
+w3_k300_12b 0.083 code/w3/res/logs/j12b.txt -- code/w3/w3_batch.py null 300 I 10000 0 5 10 100000 7
+w3_p300 0.083 code/w3/res/logs/j13.txt -- code/w3/w3_batch.py power 300 I 10000 diffuse 0 4 2500 7 + power 300 I 10000 sparse 0 4 2500 7 + power 300 I 10000 mixed 0 4 2500 7 + power 300 A 10000 diffuse 0 4 2500 7 + power 300 A 10000 sparse 0 4 2500 7 + power 300 A 10000 mixed 0 4 2500 7 + power 300 B 10000 diffuse 0 4 2500 7 + power 300 B 10000 sparse 0 4 2500 7 + power 300 B 10000 mixed 0 4 2500 7

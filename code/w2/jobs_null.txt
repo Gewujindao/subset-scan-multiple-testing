@@ -1,0 +1,44 @@
+# null-distribution chunks (equal weights K=30,116,300; heterogeneous weights K=116)
+run_null.py is 30 2 25000
+run_null.py is 30 3 25000
+run_null.py is 30 4 25000
+run_null.py is 30 5 25000
+run_null.py mc 30 101 500000
+run_null.py mc 30 102 500000
+run_null.py is 116 2 10000
+run_null.py is 116 3 10000
+run_null.py is 116 4 10000
+run_null.py is 116 5 10000
+run_null.py is 116 6 10000
+run_null.py is 116 7 10000
+run_null.py is 116 8 10000
+run_null.py mc 116 101 200000
+run_null.py mc 116 102 200000
+run_null.py mc 116 103 200000
+run_null.py mc 116 104 200000
+run_null.py mc 116 105 200000
+run_null.py is 300 1 4000
+run_null.py is 300 2 4000
+run_null.py is 300 3 4000
+run_null.py is 300 4 4000
+run_null.py is 300 5 4000
+run_null.py is 300 6 4000
+run_null.py is 300 7 4000
+run_null.py is 300 8 4000
+run_null.py is 300 9 4000
+run_null.py is 300 10 4000
+run_null.py is 300 11 4000
+run_null.py is 300 12 4000
+run_null.py mc 300 101 100000
+run_null.py mc 300 102 100000
+run_null.py mc 300 103 100000
+run_null.py mc 300 104 100000
+run_null.py is 116 1 10000 ln
+run_null.py is 116 2 10000 ln
+run_null.py is 116 3 10000 ln
+run_null.py is 116 4 10000 ln
+run_null.py is 116 5 10000 ln
+run_null.py is 116 6 10000 ln
+run_null.py mc 116 101 200000 ln
+run_null.py mc 116 102 200000 ln
+run_null.py mc 116 103 200000 ln

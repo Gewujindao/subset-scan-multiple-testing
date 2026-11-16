@@ -1,0 +1,8 @@
+vhat off-diagonal: mean +0.0286, share positive 0.869; implied Var(sum of all 44)/44 = 2.23
+null draws per model: 200000
+  T_full alpha=0.01 (crit from independent null 5.960): type-I under vhat = 3.21e-02 (3.21 x alpha)
+  T_full alpha=0.001 (crit from independent null 6.564): type-I under vhat = 7.87e-03 (7.87 x alpha)
+  T_full alpha=0.0001 (crit from independent null 7.048): type-I under vhat = 2.13e-03 (21.25 x alpha)
+  T_fast alpha=0.01 (crit from independent null 2.450): type-I under vhat = 1.10e-02 (1.10 x alpha)
+  T_fast alpha=0.001 (crit from independent null 3.233): type-I under vhat = 1.17e-03 (1.17 x alpha)
+  T_fast alpha=0.0001 (crit from independent null 3.890): type-I under vhat = 1.35e-04 (1.35 x alpha)

@@ -1,0 +1,19 @@
+# calibrated power cells (needs res/crit_<kind>_K<K>.json from 'run_null.py analyze')
+run_power.py 30 diffuse 11 20000
+run_power.py 30 sparse 12 20000
+run_power.py 30 mixed 13 20000
+run_power.py 116 diffuse 21 10000
+run_power.py 116 diffuse 22 10000
+run_power.py 116 sparse 23 10000
+run_power.py 116 sparse 24 10000
+run_power.py 116 mixed 25 10000
+run_power.py 116 mixed 26 10000
+run_power.py 300 diffuse 31 5000
+run_power.py 300 diffuse 32 5000
+run_power.py 300 sparse 33 5000
+run_power.py 300 sparse 34 5000
+run_power.py 300 mixed 35 5000
+run_power.py 300 mixed 36 5000
+run_power.py 116 diffuse 41 10000 ln
+run_power.py 116 sparse 42 10000 ln
+run_power.py 116 mixed 43 10000 ln

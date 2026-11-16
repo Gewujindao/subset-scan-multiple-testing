@@ -1,0 +1,7 @@
+﻿P4 equi0.1: prefix miss 14/200, rel gap mean 0.0006 max 0.0301 | prefix+local refine miss 0/200, gap max 0.0000
+P4 equi0.3: prefix miss 40/200, rel gap mean 0.0051 max 0.2557 | prefix+local refine miss 2/200, gap max 0.2557
+P4 equi0.5: prefix miss 61/200, rel gap mean 0.0111 max 0.1607 | prefix+local refine miss 0/200, gap max 0.0000
+P4 fac0.1: prefix miss 22/200, rel gap mean 0.0014 max 0.0381 | prefix+local refine miss 3/200, gap max 0.0163
+P4 fac0.3: prefix miss 96/200, rel gap mean 0.0247 max 0.1772 | prefix+local refine miss 32/200, gap max 0.0838
+P4 fac0.5: prefix miss 123/200, rel gap mean 0.0735 max 0.3792 | prefix+local refine miss 62/200, gap max 0.1879
+time 7.5s

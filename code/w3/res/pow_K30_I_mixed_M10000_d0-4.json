@@ -1,0 +1,63 @@
+{
+ "K": 30,
+ "struct": "I",
+ "M": 10000,
+ "scen": "mixed",
+ "nrep": 5000,
+ "thr": {
+  "full": 7.670935577448811,
+  "full08": 7.703097342646628,
+  "fast": 5.3390827299095625,
+  "fast02": 5.634821425261669
+ },
+ "draws": {
+  "0": {
+   "counts": {
+    "full_ind": 90,
+    "fast": 300,
+    "chi2": 64,
+    "full_W": 82,
+    "fast_W": 284,
+    "mix": 273,
+    "Wsplit": 214
+   },
+   "scale_f": 1.0
+  },
+  "1": {
+   "counts": {
+    "full_ind": 110,
+    "fast": 335,
+    "chi2": 71,
+    "full_W": 96,
+    "fast_W": 321,
+    "mix": 287,
+    "Wsplit": 213
+   },
+   "scale_f": 1.0
+  },
+  "2": {
+   "counts": {
+    "full_ind": 80,
+    "fast": 332,
+    "chi2": 65,
+    "full_W": 70,
+    "fast_W": 324,
+    "mix": 278,
+    "Wsplit": 212
+   },
+   "scale_f": 1.0
+  },
+  "3": {
+   "counts": {
+    "full_ind": 94,
+    "fast": 303,
+    "chi2": 71,
+    "full_W": 106,
+    "fast_W": 292,
+    "mix": 268,
+    "Wsplit": 216
+   },
+   "scale_f": 1.0
+  }
+ }
+}

@@ -1,0 +1,31 @@
+# third pass: remaining conditional nulls, analyses, power cells, GTEx (tree-kill at 28 s)
+run_null.py isk 15 17 2000 1
+run_null.py isk 18 20 2000 1
+run_null.py isk 21 23 2000 1
+run_null.py isk 24 25 2000 1
+run_null.py analyze 30
+run_null.py analyze 116
+run_null.py analyze 300
+run_null.py fastdlm 30
+run_null.py fastdlm 116
+run_null.py fastdlm 300
+run_power.py 30 diffuse 11 10000
+run_power.py 30 sparse 12 10000
+run_power.py 30 mixed 13 10000
+run_power.py 116 diffuse 21 5000
+run_power.py 116 diffuse 22 5000
+run_power.py 116 sparse 23 5000
+run_power.py 116 sparse 24 5000
+run_power.py 116 mixed 25 5000
+run_power.py 116 mixed 26 5000
+run_power.py 300 diffuse 31 2500
+run_power.py 300 diffuse 32 2500
+run_power.py 300 sparse 33 2500
+run_power.py 300 sparse 34 2500
+run_power.py 300 mixed 35 2500
+run_power.py 300 mixed 36 2500
+run_null.py is 44 1 6000
+run_null.py is 44 2 6000
+run_null.py is 44 3 6000
+run_null.py is 44 4 6000
+run_null.py analyze 44

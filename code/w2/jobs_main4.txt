@@ -1,0 +1,29 @@
+# fourth pass: fast-version type-I, more power reps, heterogeneous weights (E6)
+run_null.py fastdlm2
+run_power.py 30 diffuse 14 10000
+run_power.py 30 sparse 15 10000
+run_power.py 30 mixed 16 10000
+run_power.py 116 diffuse 27 10000
+run_power.py 116 sparse 28 10000
+run_power.py 116 mixed 29 10000
+run_power.py 300 diffuse 37 5000
+run_power.py 300 sparse 38 5000
+run_power.py 300 mixed 39 5000
+run_null.py is 116 1 4000 ln
+run_null.py is 116 2 4000 ln
+run_null.py is 116 3 4000 ln
+run_null.py is 116 4 4000 ln
+run_null.py is 116 5 4000 ln
+run_null.py is 116 6 4000 ln
+run_null.py is 116 7 4000 ln
+run_null.py is 116 8 4000 ln
+run_null.py mc 116 101 50000 ln
+run_null.py mc 116 102 50000 ln
+run_null.py analyze 116 ln
+run_power.py 116 diffuse 41 10000 ln
+run_power.py 116 sparse 42 10000 ln
+run_power.py 116 mixed 43 10000 ln
+run_power.py summary 30
+run_power.py summary 116
+run_power.py summary 300
+run_power.py summary 116 ln

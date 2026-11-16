@@ -1,0 +1,10 @@
+﻿null reps 320000 in 14.6s; P(fast stat = -inf | null) = 0.054
+alpha=0.001: critical T_full=9.141, T_fast=4.085
+alpha=0.0001: critical T_full=9.645, T_fast=4.665
+   s=  2 mu=4.0: a=0.001: full 0.068 fast 0.703 comb 0.651; a=0.0001: full 0.013 fast 0.510 comb 0.461; median subset full=27 fast=2; mean #true with z>1.96=2.0
+   s=  5 mu=2.5: a=0.001: full 0.162 fast 0.403 comb 0.376; a=0.0001: full 0.048 fast 0.219 comb 0.187; median subset full=29 fast=4; mean #true with z>1.96=3.5
+   s= 10 mu=1.8: a=0.001: full 0.277 fast 0.249 comb 0.312; a=0.0001: full 0.111 fast 0.110 comb 0.132; median subset full=32 fast=4; mean #true with z>1.96=4.4
+   s= 20 mu=1.3: a=0.001: full 0.447 fast 0.168 comb 0.399; a=0.0001: full 0.228 fast 0.061 comb 0.190; median subset full=36 fast=4; mean #true with z>1.96=5.1
+   s= 40 mu=0.9: a=0.001: full 0.600 fast 0.107 comb 0.535; a=0.0001: full 0.351 fast 0.029 comb 0.291; median subset full=40 fast=4; mean #true with z>1.96=5.8
+   s= 80 mu=0.6: a=0.001: full 0.735 fast 0.077 comb 0.675; a=0.0001: full 0.495 fast 0.022 comb 0.424; median subset full=45 fast=5; mean #true with z>1.96=6.9
+total 17.6s

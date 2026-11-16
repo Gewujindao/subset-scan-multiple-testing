@@ -1,0 +1,4 @@
+﻿block size 4 (+20 singletons): 0.003s
+block size 8 (+20 singletons): 0.034s
+block size 12 (+20 singletons): 0.919s
+block size 15 (+20 singletons): 6.045s

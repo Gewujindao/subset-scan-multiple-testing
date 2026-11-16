@@ -1,0 +1,1 @@
+K=300 n=12000: alpha=0.01 rho=0.01: full 7.17x, fast 1.39x; alpha=0.01 rho=0.03: full 14.65x, fast 2.00x; alpha=0.01 rho=0.1: full 23.43x, fast 4.20x; alpha=0.001 rho=0.01: full 23.58x, fast 1.67x; alpha=0.001 rho=0.03: full 86.08x, fast 4.17x; alpha=0.001 rho=0.1: full 167.92x, fast 14.42x (19.0s)
