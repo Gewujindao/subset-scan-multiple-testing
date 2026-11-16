@@ -1,5 +1,13 @@
 # Exact All-Subset Scanning for Multi-Trait Association Tests
 
+## At a glance
+
+- **What:** exact maximisation of the ASSET all-subset statistic in O(K log K) via a prefix property (block sweep for block-diagonal correlation), plus a whitened full-subset test for correlated traits.
+- **Result:** ignoring weak correlation (ρ = 0.01, K = 300, α = 1e-3) inflates the full-search type-I error 23.58×; after whitening, observed/nominal type-I error lies in 0.90–1.13 across all completed configurations.
+- **Validation:** the prefix scan matches exhaustive search in all 1,700 checks; type-I rates come from null simulations evaluated against criteria written before the runs.
+
+![Type-I inflation under ignored weak correlation and observed/nominal type-I ratio of the whitened test](figures/summary.png)
+
 **中文简介**：本仓库研究多性状关联分析中的全子集检验（ASSET 一类）。在性状独立或成块相关时，全部 2^K−1 个子集上的最大统计量必定落在按 z/w 排序的前缀里，因此可以在 O(K log K) 内精确求出，不需要枚举；块对角相关时可按块做凸包扫描精确求解。研究同时量化了按独立模型定临界值时弱相关带来的一类错误膨胀（模拟与 GTEx v6 多组织 eQTL 实测相关），并设计、检验了先白化再做前缀扫描的全子集检验。另含两个独立的小题：DNA 存储检索所需测序深度的精确期望值，以及阵列群检 EM 算法 E 步的精确后验边际。原始数据不随仓库分发。
 
 ---
