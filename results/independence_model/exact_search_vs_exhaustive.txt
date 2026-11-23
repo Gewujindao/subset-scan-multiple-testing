@@ -1,0 +1,4 @@
+﻿P1 K=12: 400 cases, prefix vs exhaustive mismatches = 0;  P2 two-sided sets mismatches = 0
+P1 K=14: 150 cases, prefix vs exhaustive mismatches = 0;  P2 two-sided sets mismatches = 0
+P3 K=12 random blocks (sizes 1-4), 300 cases, block sweep vs exhaustive mismatches = 0
+time 7.7s
